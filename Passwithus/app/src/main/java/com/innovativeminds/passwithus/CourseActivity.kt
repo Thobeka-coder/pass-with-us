@@ -5,15 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class CourseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main);
-        val button: Button = findViewById(R.id.button)
+        setContentView(R.layout.activity_course)
 
-        button.setOnClickListener {
-            val intent = Intent(this@MainActivity,
-                DashboardActivity::class.java)
+        val toHome: Button = findViewById(R.id.go_home)
+
+        toHome.setOnClickListener {
+            val intent = Intent(this@CourseActivity,
+                MainActivity::class.java)
             startActivity(intent)
         }
     }

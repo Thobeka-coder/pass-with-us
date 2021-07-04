@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SettingsActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/back_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME PAGE"
+        android:text="Back Home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Dashboard"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="55dp"
+        android:text="Settings"
+        app:layout_constraintBottom_toTopOf="@+id/back_home"
+        app:layout_constraintStart_toStartOf="@+id/back_home" />
 </androidx.constraintlayout.widget.ConstraintLayout>
