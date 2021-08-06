@@ -3,7 +3,6 @@ package com.innovativeminds.passwithus
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 
 class DashboardActivity : AppCompatActivity() {
@@ -22,7 +21,7 @@ class DashboardActivity : AppCompatActivity() {
         }
         toCourses.setOnClickListener {
             val intent = Intent(this@DashboardActivity,
-                CourseActivity::class.java)
+                RegisterActivity::class.java)
             startActivity(intent)
         }
         toSettings.setOnClickListener {
