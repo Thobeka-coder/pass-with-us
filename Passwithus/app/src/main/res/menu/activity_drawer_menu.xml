@@ -10,9 +10,7 @@
             android:icon="@android:drawable/ic_menu_gallery"
             android:title="Courses">
             <menu>
-                <item
-                    android:id="course_1"
-                    android:title="course 1"/>
+                <item android:title="course 1" />
                 <item android:title="course 2" />
             </menu>
         </item>
