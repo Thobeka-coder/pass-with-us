@@ -2,4 +2,9 @@
     <string name="app_name">Pass with us</string>
     <string name="save">Save</string>
     <string name="gender">Gender</string>
+    <string name="android_studio_android_com">android_studio_android_com</string>
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="pageName">Subject 1</string>
+    <string name="postUsername">Username</string>
+    <string name="postText">This is a test of the text to go to post</string>
 </resources>

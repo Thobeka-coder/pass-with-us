@@ -12,8 +12,5 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
-        },2500)
     }
 }

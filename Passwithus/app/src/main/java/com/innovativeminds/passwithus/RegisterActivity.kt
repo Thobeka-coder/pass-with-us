@@ -10,12 +10,12 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        val toHome: Button = findViewById(R.id.go_home)
+//        val toHome: Button = findViewById(R.id.go_home)
 
-        toHome.setOnClickListener {
-            val intent = Intent(this@RegisterActivity,
-                MainActivity::class.java)
-            startActivity(intent)
-        }
+//        toHome.setOnClickListener {
+//            val intent = Intent(this@RegisterActivity,
+//                MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }

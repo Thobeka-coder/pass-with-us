@@ -3,18 +3,20 @@ package com.innovativeminds.passwithus
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Button
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main);
-        val button: Button = findViewById(R.id.button)
+        val button: FloatingActionButton = findViewById(R.id.fab)
 
-        button.setOnClickListener {
-            val intent = Intent(this@MainActivity,
-                DashboardActivity::class.java)
-            startActivity(intent)
-        }
+    }
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        TODO("Not yet implemented")
     }
 }

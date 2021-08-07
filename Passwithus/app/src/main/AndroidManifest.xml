@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PassWithUs">
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".SettingsActivity" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.Design.NoActionBar">
@@ -21,7 +21,6 @@
         </activity>
         <activity android:name=".ProfileActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".DashboardActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
